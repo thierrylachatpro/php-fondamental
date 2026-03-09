@@ -49,8 +49,6 @@ $color = "brown"
 
     </p>
 
-
-
 </body>
 
 </html>
