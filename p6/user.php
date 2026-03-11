@@ -3,7 +3,11 @@
 if (isset($_GET["id"])) {
     $id = $_GET["id"];
     // echo 'Cette variable existe, donc je peux l\'afficher.' . $id;
+<<<<<<< HEAD
 } else {
+=======
+}else{
+>>>>>>> main
     header('Location: ./users.php');
 }
 
