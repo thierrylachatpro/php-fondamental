@@ -11,24 +11,8 @@ $ex2b = rand(1, 100);
 $ex3a = 100;
 $ex3b = rand(1, 100);
 
-
 // Ex4
 $ex4 = 1;
-
-
-// Ex5
-
-
-// Ex6
-
-
-
-// Ex7
-
-
-
-// Ex8
-
 
 ?>
 <!DOCTYPE html>
@@ -111,4 +95,4 @@ $ex4 = 1;
     } ?>
 </body>
 
-</html> 
+</html>
