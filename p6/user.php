@@ -3,7 +3,7 @@
 if (isset($_GET["id"])) {
     $id = $_GET["id"];
     // echo 'Cette variable existe, donc je peux l\'afficher.' . $id;
-}else{
+} else {
     header('Location: ./users.php');
 }
 
@@ -47,7 +47,7 @@ $users = [$user1, $user2, $user3, $user4, $user5, $user6];
 if (isset($_GET["color"])) {
     $color = $_GET["color"];
     // echo 'Cette variable existe, donc je peux l\'afficher.' . $id;
-}else{
+} else {
     $color = 'Black';
 }
 ?>
@@ -62,8 +62,8 @@ if (isset($_GET["color"])) {
 </head>
 
 <body>
-    <a href="mailto: <?= $users[$id]['email']?>" style="color : <?= $color ?>">contact <?= $users[$id]["firstname"] ?> <?= $users[$id]["lastname"] ?></a>
-     
+    <a href="mailto: <?= $users[$id]['email'] ?>" style="color : <?= $color ?>">contact <?= $users[$id]["firstname"] ?> <?= $users[$id]["lastname"] ?></a>
+
 </body>
 
 </html>
