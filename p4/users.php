@@ -70,8 +70,8 @@ $users = [$user1, $user2, $user3, $user4, $user5, $user6];
         masculin, Yuka à été fondé en 2016, notamment par <?= $users[5]['firstname'] . ' ' . $users[5]['lastname'] ?>.
     </p>
     <ul> <?php foreach ($users as $user) {
-                
-                echo '<li>'.$user["firstname"]  . ' ' .   $user["lastname"]  . ' ' .  $user["email"].'</li>';
+
+                echo '<li>' . $user["firstname"]  . ' ' .   $user["lastname"]  . ' ' .  $user["email"] . '</li>';
             }
             ?>
 
